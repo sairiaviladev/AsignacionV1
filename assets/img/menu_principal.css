@@ -1,0 +1,67 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    text-decoration: none;
+}
+
+:root {
+    /*Paleta de colores*/
+    --paleta_uno: #CEDDEF;
+    --paleta_dos: #070D59;
+    --paleta_tres: #1F3C88;
+    --paleta_cuatro: #5893D4;
+    /*Tipografia*/
+    --fuente_primaria: 'Poppins', sans-serif;
+    --fuente_secundaria: 'Hammersmith One', sans-serif;
+    --tamaño_uno: 4rem;
+    --tamaño_dos: 2rem;
+    /*Color Tipografia*/
+    --color_fuente_uno: #000000;
+    --color_fuente_dos: #5893D4;
+    /*Estilo Formulario*/
+    --color_formulario: #ffffff;
+    --color_boton: #5893D4;
+    --color_boton_hover: #070D59;
+    --color_span: #5893D4;
+}
+
+:root {
+    /*Mobil*/
+    /*Paleta de colores*/
+    --paleta_unoM: #ffffff;
+    --paleta_dosM: #070D59;
+    --paleta_tresM: #1F3C88;
+    --paleta_cuatroM: #5893D4;
+    /*Tipografia*/
+    --fuente_primariaM: 'Poppins', sans-serif;
+    --fuente_secundariaM: 'Hammersmith One', sans-serif;
+    --tamaño_unoM: 2rem;
+    --tamaño_dosM: 1rem;
+    /*Color Tipografia*/
+    --color_fuente_unoM: #000000;
+    --color_fuente_dosM: #5893D4;
+    /*Estilo Formulario*/
+    --color_formularioM: #ffffff;
+    --color_botonM: #5893D4;
+    --color_boton_hoverM: #070D59;
+    --color_spanM: #5893D4;
+}
+
+body {
+    overflow: hidden;
+    /*background-color: var(--paleta_uno);*/
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+
+}

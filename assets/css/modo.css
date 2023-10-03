@@ -1,0 +1,27 @@
+/*Modo oscuro*/
+[tema_de_datos="dia"] {
+    --color_uno: #CEDDEF;
+    --color_dos: #8dc2fc;
+    --boton: white;
+    --color-texto: black;
+    --color-btn-menu: #000000;
+    --color-texto-span: #1F3C88;
+    --imagen-acceso-portada: url('../svg/img2-dia.svg');
+}
+
+[tema_de_datos="noche"] {
+    /*Contenido*/
+    --color_uno: #1F3C88;
+    --color_dos: #070D59;
+    --boton: yellow;
+    --color-texto: white;
+    --color-btn-menu: #ffffff;
+    --color-texto-span: #8dc2fc;
+    --imagen-acceso-portada: url('../svg/img2-noche.svg');
+}
+
+.cambio input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
